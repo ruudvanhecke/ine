@@ -21,6 +21,7 @@ p {
   width: 100%;
   display: block;
   text-align: center;
+  color: #aea0c6;
   padding: 0 0 38px 0;
 }
 .title * {
@@ -30,6 +31,10 @@ p {
 .title h1 {
   margin: 0;
   font-size: 1.438em;
+}
+.title welkom {
+  margin: 0;
+  font-size: 2em;
 }
 .title span {
   color: #c0bebe;
@@ -256,10 +261,10 @@ header nav ul li a {
   color: black;
 }
 header nav ul li a:hover {
-  color: #898989;
+  color: #d2b2c5;
 }
 header nav ul li.current a {
-  color: #898989;
+  color: #d2b2c5;
 }
 header .sep {
   width: 100%;
