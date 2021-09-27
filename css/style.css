@@ -90,6 +90,7 @@ p {
 
 ul.social {
   display: block;
+  display: initial;
 }
 ul.social li {
   display: inline-block;
@@ -854,18 +855,22 @@ footer .copyright {
     width: 25px;
     height: 25px;
   }
+
   section.team .slider .bannerNav a i {
     line-height: 25px;
     color: #fff;
     font-size: 0.813em;
   }
+
   section.team .slider .sliderholder .member ul.social {
     text-align: center;
     margin: 0;
   }
+
   section.team .slider .memberInfo {
     text-align: center;
   }
+
   section.team .slider .smallTitle {
     text-align: center;
     margin: 20px 0 0 0;
