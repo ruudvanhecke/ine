@@ -359,10 +359,8 @@ jQuery(window).load(function(){
 
         var target_offset = jQuery("#" + trgt).offset();
 
-        var target_top = target_offset.top - 59;
-
         //goto that anchor by setting the body scroll top to anchor top
-        jQuery('html, body').animate({scrollTop: target_top}, 1000);
+
 
        });
        
